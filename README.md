@@ -19,5 +19,8 @@ sudo docker ps -a
 
 # To stop and remove your container
 sudo docker stop <Container ID>
-sudo docker rm <container ID>
+sudo docker rm <Container ID>
+
+# To remove docker images
+sudo docker rmi <Image ID>
 ```
