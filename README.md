@@ -23,4 +23,10 @@ sudo docker rm <Container ID>
 
 # To remove docker images
 sudo docker rmi <Image ID>
+
+# go into the container
+docker exec -it <Container ID> sh
+
+# shortcut for stopping and removing all docker images
+docker rm -f $(docker ps -aq)
 ```
